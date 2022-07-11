@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 // dfs
 
-class Main_11725 {
+class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader bf = new BufferedReader((new InputStreamReader(System.in)));
         StringBuilder sb = new StringBuilder();
