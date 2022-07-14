@@ -1,3 +1,5 @@
+package 백준.트리._5639_이진_검색_트리;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

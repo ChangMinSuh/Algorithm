@@ -1,4 +1,4 @@
-// 문제 : 아래와 같이 출력 되도록 해주세요.
+package 백준.트리._11725_트리의_부모_찾기;// 문제 : 아래와 같이 출력 되도록 해주세요.
 
 import java.io.BufferedReader;
 import java.io.IOException;

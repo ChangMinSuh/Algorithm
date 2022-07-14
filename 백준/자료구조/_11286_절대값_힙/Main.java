@@ -1,3 +1,5 @@
+package 백준.자료구조._11286_절대값_힙;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

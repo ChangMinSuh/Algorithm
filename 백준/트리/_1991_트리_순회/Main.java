@@ -1,3 +1,5 @@
+package 백준.트리._1991_트리_순회;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
