@@ -20,3 +20,5 @@
    
 - 주의
   - 덧셈시 int 범위 초과하므로, long 사용해야한다.
+  
+  ![image](https://user-images.githubusercontent.com/35267961/179488986-178775ee-b438-4191-931e-9db9a3094896.png)
