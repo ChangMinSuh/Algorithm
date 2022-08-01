@@ -15,6 +15,7 @@ import java.util.Arrays;
 - 전체 합 구하는법
     - memo[x2][y2] - memo[x1 -1][y2] - memo[x2][y1 - 1] + memo[x1 - 1][y1 - 1]
     - 중복되는 곳 제거 필수
+- string tokener가 시간이 확 줄긴 하는듯
  */
 public class Main {
     public static void main(String[] args) throws IOException {
