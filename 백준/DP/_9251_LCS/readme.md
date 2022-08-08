@@ -14,3 +14,4 @@ LCS, 2차원 dp
         - memo[y][x] = Math.max(memo[y][x - 1], memo[y - 1][x]);
     - 만약 현재 인덱스의 문자가 같다면, 저장된 값 vs 왼쪽 위 + 1중 큰값.
         - memo[y][x] = Math.max(memo[y][x], memo[y-1][x-1] + 1)
+![image](https://user-images.githubusercontent.com/35267961/182078124-e3d0a861-0c03-406f-b4f8-06a1e87e4c96.png)
