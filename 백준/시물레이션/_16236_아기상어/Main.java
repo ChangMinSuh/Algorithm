@@ -40,14 +40,14 @@ public class Main {
 
         // 엄마의 도움이 필요할 떄 까지 반복복
        while(true){
-            Queue<YX> qu = new LinkedList<>();
-            qu.add(startYX);
-            boolean isAte = false;
-            int distance = 0;
-            boolean[][] isVisited = new boolean[N][N];
-            isVisited[startYX.y][startYX.x] = true;
-            // 현재 상어 위치에서 가까운 상어 찾기
-            // bfs
+           // bfs
+           Queue<YX> qu = new LinkedList<>();
+           qu.add(startYX);
+           boolean isAte = false;
+           int distance = 0;
+           boolean[][] isVisited = new boolean[N][N];
+           isVisited[startYX.y][startYX.x] = true;
+           // 현재 상어 위치에서 가까운 상어 찾기
             while(!qu.isEmpty()){
                 ArrayList<YX> list = new ArrayList<>();
                 int quSize = qu.size();
