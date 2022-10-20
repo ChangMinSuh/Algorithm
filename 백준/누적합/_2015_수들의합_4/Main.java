@@ -54,6 +54,7 @@ public class Main {
         for(int i = 1; i <= N; i++){
             result += sumMap.getOrDefault(targetK, 0);
             targetK += arr[i];
+            // 1 ~ 0 방지
             sumMap.put(sum[i], sumMap.get(sum[i]) - 1);
         }
 
